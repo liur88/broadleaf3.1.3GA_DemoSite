@@ -169,5 +169,15 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
         </dependency>
+        
+        <!-- 添加mysql依赖 -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.26</version>
+		    <type>jar</type>
+		    <scope>compile</scope>
+		</dependency>  
+
     </dependencies>
 </project>
